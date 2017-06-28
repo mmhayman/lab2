@@ -32,11 +32,11 @@ public class Main {
             } while (userNum < 0) ;
 
 
-                if (userNum >= 1 && userNum <= 100) { // if user inputs a number 1-00 stay in this loop
+                if (userNum >= 1 && userNum <= 100) { // if user inputs a number 1-100 stay in this loop
 
 
                     if (userNum % 2 == 0) { // if statements for even numbers
-                        if (userNum > 2 && userNum < 25) {
+                        if (userNum > 0 && userNum < 25) {
                             System.out.println("Even and less than 25");
                         }
                         if (userNum > 26 && userNum < 60) {
